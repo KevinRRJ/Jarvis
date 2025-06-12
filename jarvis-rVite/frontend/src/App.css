@@ -1,0 +1,82 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body, #root {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #18181B;
+  z-index: 1;
+}
+
+.blur {
+  position: absolute;
+  box-shadow: 0 0 1000px 50px #9d1dd8; 
+  z-index: 2; 
+  opacity: 1; 
+  width: 20px; 
+  height: 20px;
+  border-radius: 50%; 
+}
+.App {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  background: rgba(0, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #00ffee33;
+  border: 1px solid #00ffee33;
+}
+
+#btnLogin {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #6f0da0;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid transparent; 
+  transition: background 0.8s ease, border-color 0.8s ease, color 0.8s ease;
+}
+
+#btnLogin:hover {
+  background: transparent;
+  border-color: rgb(144, 26, 167); 
+  color: rgb(255, 255, 255);
+}
+
+
+input {
+  padding: 10px;
+  width: 80%;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d3748;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a5568;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}
