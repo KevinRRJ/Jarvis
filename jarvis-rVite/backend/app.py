@@ -154,10 +154,11 @@ patron_musica = construir_patron_musica()
 def buscar_en_spotify(busqueda):
     try:
         os.startfile("spotify")
-        time.sleep(3)
+        time.sleep(5)
         pyautogui.hotkey('ctrl', 'k')
         time.sleep(1)
         pyautogui.write(busqueda, interval=0.05)
+        time.sleep(0.08)
         pyautogui.press('enter')
         return True
     except Exception as e:
