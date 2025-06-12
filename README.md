@@ -51,6 +51,15 @@ cd .\jarvis-rVite\
 npm install
 ```
 
+### Entra a la carpeta de frontend
+```bash
+cd .\frontend\
+```
+
+## Luego ejecuta:
+```bash
+npm install
+```
 
 ### 5. Ejecutar la Aplicación
 
