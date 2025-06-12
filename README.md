@@ -31,13 +31,7 @@ En MacOS/Linux:
 ```bash
 source .venv/bin/activate
 ```
-### 3. Entrar a la carpeta donde se encuentran las depencencias
-Ejecuta el siguiente comando:
-```bash
-cd .\My-Final-Project\
-```
-
-### 4. Instalar Dependencias
+### 3. Instalar Dependencias
 
 Instala las dependencias necesarias con:
 
@@ -45,14 +39,27 @@ Instala las dependencias necesarias con:
 pip install -r requirements.txt
 ```
 
+
+### 4. Entrar a la carpeta donde se encuentran las depencencias de node
+Ejecuta el siguiente comando:
+```bash
+cd .\jarvis-rVite\
+```
+
+## Luego ejecuta:
+```bash
+npm install
+```
+
+
 ### 5. Ejecutar la Aplicación
 
 Para ejecutar la aplicación, usa:
 
 ```bash
-python run.py
+ npm run dev
 ```
 
 ## Uso
 
-Abre tu navegador y dirígete a `http://127.0.0.1:5000` para ver la aplicación.
+Abre tu navegador y dirígete a `http://localhost:5173/` para ver la aplicación.
