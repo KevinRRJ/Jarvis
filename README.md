@@ -70,7 +70,12 @@ npm install
 
 ### 5. Ejecutar la Aplicación
 
-Para ejecutar la aplicación, usa:
+Para ejecutar la aplicación, vuelve al directorio raiz con:
+```bash
+cd ..
+```
+
+## Una vez estando ahi, ejecuta:
 
 ```bash
  npm run dev
