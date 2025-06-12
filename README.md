@@ -2,6 +2,13 @@
 
 ## Configuración
 
+## Requisitos previos
+Antes de comenzar, asegúrate de tener instalado en tu sistema:
+
+Node.js (v18 o superior recomendado)
+puedes instalarlo en su pagina oficial:
+https://nodejs.org/es
+
 Para comenzar, sigue estos pasos:
 
 ### 1. Clonar el Repositorio
